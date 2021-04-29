@@ -3,7 +3,7 @@ let int = 12345;
 let last;
 let str;
 
-if(int % 10 === 0){
+if (int % 10 === 0) {
     console.log(int);
 } else {
     str = int.toString();
