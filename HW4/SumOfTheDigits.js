@@ -5,7 +5,7 @@ let prod = 1;
 
 for(let i = 0; i <= str.length -  1; i++) {
     sum = sum + (+str[i]);
-    prod = prod * str[i];
+    prod = prod * (+str[i]);
 }
 
 if(prod % sum === 0){
