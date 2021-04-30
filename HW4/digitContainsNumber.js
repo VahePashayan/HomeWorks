@@ -4,9 +4,9 @@ let num = 8763425;
 let numStr = num + "";
 let digitStr = digit + "";
 
-if(numStr.indexOf(digitStr) === -1) {
+if (numStr.indexOf(digitStr) === -1) {
     console.log("NO")
-}else {
+} else {
     console.log("YES")
 }
 
