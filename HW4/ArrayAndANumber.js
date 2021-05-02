@@ -1,5 +1,5 @@
 let arr = [5, 46, 17, -2, 89, 0, 26];
-let num = 36;
+let num = 0;
 let min = Math.abs(num - arr[0]);
 let index = 0;
 
