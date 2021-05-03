@@ -6,3 +6,6 @@
 
 //3 
 console.log(Number(' 12'))      //12        Number() deletes 0 before number
+
+//4
+console.log(isNaN(' '))     //false         As " " = false = 0    
