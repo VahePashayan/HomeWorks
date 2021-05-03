@@ -23,3 +23,6 @@ console.log(9007199254740992 + 2 == 9007199254740992)       //false
 //9//10
 console.log(-0 === +0)      // true         //0 === +0 === -0
 console.log(0 === -0)       
+
+//11
+console.log(1 / "2")        //0.5       As only + operator changed number to string
