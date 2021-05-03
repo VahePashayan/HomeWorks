@@ -12,3 +12,6 @@ console.log(isNaN(' '))     //false         As " " = false = 0
 
 //5 
 console.log(+'')        //0         As false and with + becomes 0
+
+//6 
+console.log(.1 + .2 == .3)      //false         .1 is the same as 0.1
