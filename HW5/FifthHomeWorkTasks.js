@@ -36,3 +36,6 @@ console.log(Infinity / Infinity);        //NaN
 
 //15 
 console.log(0 / 0);         //NaN
+
+//16
+console.log(+null);         //0         null becomes false = 0;
