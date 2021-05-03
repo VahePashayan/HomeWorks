@@ -51,3 +51,9 @@ console.log(parseInt('077a'))       //77        as parseInt deletes 0 before num
 
 //20 
 console.log(parseInt('I’m the best value - said Infinity.'))        //NaN           As there is no number
+
+//21
+console.log(parseFloat('12.78ff'))      //12.78         Returns floating number
+
+/22
+console.log("" + 1 + 0)         //10            "" makes 1 and 0 strings, but after each other
