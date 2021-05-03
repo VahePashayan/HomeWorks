@@ -60,3 +60,6 @@ console.log("" + 1 + 0)         //10            "" makes 1 and 0 strings, but af
 
 //23
 console.log("" - 1 + 0)         //-1            "" becomes false and then zero
+
+//24
+console.log("4px" - 2)          //NaN           as string becomes NaN
