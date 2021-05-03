@@ -43,4 +43,5 @@ console.log(+null);         //0         null becomes false = 0;
 //17
 console.log(+undefined);        //NaN 
 
-
+//18
+console.log(parseInt('.2'));        //NaN       as parseInt doesn't work with floating number
