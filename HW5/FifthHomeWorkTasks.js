@@ -48,3 +48,6 @@ console.log(parseInt('.2'));        //NaN       as parseInt doesn't work with fl
 
 //19 
 console.log(parseInt('077a'))       //77        as parseInt deletes 0 before number and string after number
+
+//20 
+console.log(parseInt('I’m the best value - said Infinity.'))        //NaN           As there is no number
