@@ -30,3 +30,6 @@ console.log(1 / "2")        //0.5       As only + operator changed number to str
 //12//13
 console.log(1 / 0)          //Infinity
 console.log(1 / -0)         //-Infinity
+
+//14
+console.log(Infinity / Infinity)        //NaN       
