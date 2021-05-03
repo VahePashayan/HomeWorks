@@ -39,3 +39,8 @@ console.log(0 / 0);         //NaN
 
 //16
 console.log(+null);         //0         null becomes false = 0;
+
+//17
+console.log(+undefined);        //NaN 
+
+
