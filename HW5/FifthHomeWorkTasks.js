@@ -25,4 +25,8 @@ console.log(-0 === +0)      // true         //0 === +0 === -0
 console.log(0 === -0)       
 
 //11
-console.log(1 / "2")        //0.5       As only + operator changed number to string
+console.log(1 / "2")        //0.5       As only + operator changed number to string 
+
+//12//13
+console.log(1 / 0)          //Infinity
+console.log(1 / -0)         //-Infinity
