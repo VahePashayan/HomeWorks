@@ -15,3 +15,7 @@ console.log(+'')        //0         As false and with + becomes 0
 
 //6 
 console.log(.1 + .2 == .3)      //false         .1 is the same as 0.1
+
+//7//8 
+console.log(9007199254740992 + 1 == 9007199254740992)       //true
+console.log(9007199254740992 + 2 == 9007199254740992)       //false
