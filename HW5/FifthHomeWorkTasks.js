@@ -55,5 +55,8 @@ console.log(parseInt('I’m the best value - said Infinity.'))        //NaN     
 //21
 console.log(parseFloat('12.78ff'))      //12.78         Returns floating number
 
-/22
+//22
 console.log("" + 1 + 0)         //10            "" makes 1 and 0 strings, but after each other
+
+//23
+console.log("" - 1 + 0)         //-1            "" becomes false and then zero
