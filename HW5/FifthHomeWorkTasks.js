@@ -45,3 +45,6 @@ console.log(+undefined);        //NaN
 
 //18
 console.log(parseInt('.2'));        //NaN       as parseInt doesn't work with floating number
+
+//19 
+console.log(parseInt('077a'))       //77        as parseInt deletes 0 before number and string after number
