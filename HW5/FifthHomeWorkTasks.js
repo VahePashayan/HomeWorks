@@ -8,4 +8,7 @@
 console.log(Number(' 12'))      //12        Number() deletes 0 before number
 
 //4
-console.log(isNaN(' '))     //false         As " " = false = 0    
+console.log(isNaN(' '))     //false         As " " = false = 0  
+
+//5 
+console.log(+'')        //0         As false and with + becomes 0
