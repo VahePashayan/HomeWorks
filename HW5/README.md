@@ -76,6 +76,8 @@ console.log("4px" - 2)          //NaN           as string becomes NaN
 
 ### 5.2 **_parseInt_** and **_parseFloat_** logic implementation:
 
+#### ParseInt:
+
 ```javascript
 let inputStr = " 2304abc";
 let parsed = "";
@@ -95,4 +97,25 @@ if(parsed[0] === ".") {
 }
 console.log(parsed)
 
+```
+#### ParseFloat:
+
+```javascript
+let inputStr = "23.4abc";
+let parsed = "";
+for(let i = 0; i < inputStr.length; i++) {
+    if(inputStr[i].charCodeAt(0) >= 49 && inputStr[i].charCodeAt(0)) {
+        parsed = parsed + inputStr[i];
+    }else if(inputStr[i] === " " || inputStr[i] === "0") {
+        continue;
+    }else {
+        break;
+    }
+}
+
+if(parsed === "") console.log("NaN");
+if(parsed[0] === ".") {
+    parsed = "0" + parsed;
+}
+console.log(parsed)
 ```
