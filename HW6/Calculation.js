@@ -3,7 +3,7 @@ let sign = prompt("Please write a sign");
 
 
 let sum = function(arr) {
-    let sum = inputArr[0];
+    let sum = inputArr[0]; 
     for(let i = 1; i < inputArr.length; i++) {
         sum = sum + inputArr[i];
     }
