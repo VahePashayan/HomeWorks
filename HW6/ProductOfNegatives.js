@@ -16,4 +16,4 @@ let productOfNegatives = function(arr) {
     return product;
 }
 
-console.log(productOfNegatives(inputArr));
+console.log(productOfNegatives(inputArr)); 
