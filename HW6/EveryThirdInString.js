@@ -1,4 +1,4 @@
-let strInput = "dfgjkloyp";
+let strInput = "1234567890";
 
 let bringUp = function (str) {
     let arr = str.split("");
