@@ -1,6 +1,6 @@
-const getSum = (num) => {
+const getSum = (num1) => {
     return (num2) => {
-        return num + num2;
+        return num1 + num2;
     }
 
 }
