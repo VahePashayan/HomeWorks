@@ -1,9 +1,9 @@
-let inputObject1 = { a: 1 };
-let inputObject2 = { a: 1 };
+let inputObject1 = { a: 1, b: 2 };
+let inputObject2 = { b: 2, a: 1 };
 
 let shallowCompare = function(obj1, obj2) {
-    let objKeys1 = Object.keys(obj1);
-    let objKeys2 = Object.keys(obj2);
+    let objKeys1 = Object.keys(obj1).sort();
+    let objKeys2 = Object.keys(obj2).sort();
 
     if(objKeys1.length !== objKeys2.length) {
         return false;
