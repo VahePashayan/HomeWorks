@@ -1,10 +1,10 @@
-let inputMin = 19;
-let inputMax = 42;
+let inputMin = 99;
+let inputMax = 199;
 
 let findArr = function(numMin, numMax) {
     let arr = [];
     let res = [];
-    for(i = numMin; i <= inputMax; i++) {
+    for(i = numMin; i <= numMax; i++) {
         if(i % 2 === 0){
             arr.push(i);
         }
