@@ -19,3 +19,5 @@ console.log(doForEach(inputArray, plus10));
 
 console.log(doForEach(inputArray, printArray));
 
+
+
