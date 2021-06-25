@@ -32,11 +32,12 @@ let id;
 
 function startTimer() {
     id = setInterval(updateTimer, 10);
-    
+    startBtn.disabled = true;
 }
 
 function pauseTimer() {
     clearInterval(id);
+    startBtn.disabled = false;
 }
 
 function stopTimer() {
@@ -45,6 +46,7 @@ function stopTimer() {
     min = 0;
     clearInterval(id);
     timer.innerText = hour + ":" + min + ":" + sec + ":" + millisec;
+    startBtn.disabled = false;
 }
 
 // let timer = document.querySelector("p")
