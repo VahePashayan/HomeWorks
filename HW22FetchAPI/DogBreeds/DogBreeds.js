@@ -7,8 +7,8 @@ breeds.addEventListener("change", (event) => {
         console.log(response)
         return response.json();
 }).then((data) => {
+    console.log(data)
     photo.src = data.message;
-});
+    });
 });
 
-// event listener have to be on something else, not on breeds;
